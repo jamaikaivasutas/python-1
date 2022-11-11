@@ -1,19 +1,23 @@
-from os import *
+from os import system
 
-number:int=None
+number: int=None
 
 system('cls')
 
-print("Kérek egy számot!")
+print("Kérek egy számot")
 number=int(input())
 
-system('cls')
-
-if(number > 0):
-    print("A szám negatív.")
-if(number % 3 == 0):
-    print(f"BAZ")
 if(number % 2 == 0):
-    print(f"BIZ")
+    print("A szám páros.")
 else:
-    print(f"A szám nem osztható se 2-vel,3-al se.")
+    print("A szám páratlan.")
+
+if(number >= 0):
+    print("A szám pozitív.")
+else:
+    print("A szám negatív.")
+    
+if(number% 5 == 0):
+    print("A szám osztható öttel.")
+else: 
+    print("A szám nem osztható öttel.")
