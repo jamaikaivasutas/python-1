@@ -1,7 +1,3 @@
-from nis import match
-from os import system
-from unittest import case
-
 day: int = None
 
 print("Hanyadik napja van a hétnek?")
