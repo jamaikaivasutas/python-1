@@ -4,11 +4,11 @@ operator: str=None
 number: int=None
 
 print("Kérek két számot!")
-number1=int(input())
-number2=int(input())
+number1=int(input().strip())
+number2=int(input().strip())
 
 print("Kérek egy matematikai műveletet (+,-,*,/)!")
-operator=str(input())
+operator=str(input().strip())
 
 match operator:
     case "+":

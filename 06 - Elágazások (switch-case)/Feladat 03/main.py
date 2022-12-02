@@ -2,7 +2,7 @@ choice: int = None
 
 print("Kérem válasszon egy üdítőt!")
 print("1 - Coca Cola\n2 - Pepsi\n3 - Fanta\n4 - Sprite")
-choice = int(input())
+choice = int(input().strip())
 
 match choice:
     case 1:

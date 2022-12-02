@@ -1,7 +1,7 @@
 day: int = None
 
 print("Hanyadik napja van a hétnek?")
-day = int(input())
+day = int(input().strip())
 
 match day:
     case 1:

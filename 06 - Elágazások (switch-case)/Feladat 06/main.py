@@ -12,7 +12,7 @@ print("Kérem a téglalap szélességét!")
 szel=int(input())
 
 print("Kérem válasszon a menüből!\nt - terület\nk - kerület\na - átló")
-valasztas=str(input())
+valasztas=str(input().lower().strip())
 
 match valasztas:
     case "t":
