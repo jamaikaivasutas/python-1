@@ -11,5 +11,8 @@ if(start % 3 == 0):
         eredmeny=eredmeny+1
 elif(start % 3 == 1):
     for i in range(start + 2, end + 1, 3):
-        
-print(eredmeny)
+        eredmeny=eredmeny+1
+else:
+    for i in range(start + 1, end + 1, 3):
+        eredmeny=eredmeny+1
+print(f"Hárommal osztható számok száma: {eredmeny}")
