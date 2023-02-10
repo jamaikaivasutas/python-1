@@ -2,7 +2,7 @@ from os import system
 
 number : int = None
 temp : str = None
-osszeg : int = None
+osszeg : int = 0
 oszthato : int = 0
 
 system('cls')
@@ -17,6 +17,8 @@ while(number == None):
                 osszeg=osszeg+i
             if(i % 11 == 0):
                 oszthato=oszthato+1
+                
+
     elif(int(temp) < 0):
         print("Nem pozitív számot adott meg!")
     else:
@@ -24,7 +26,10 @@ while(number == None):
 
 print("Páros számok:")
 for i in range(0, number + 1, 2):
-    print(i end="")
+    print(i)
 print(f"5-tel osztható számok összege: {osszeg}")
 print(f"11-el osztható számok száma: {oszthato}")
 print("7-tel elosztott számok 3 maradékkal:")
+for i in range(0, number + 1, 1):
+    if(i% 7 == 3):
+        print(i)

@@ -1,10 +1,13 @@
 from os import system
-from sysconfig import parse_config_h
-from tokenize import single_quoted
+import random
+from time import process_time_ns
 
 paros : int = None
 paratlan : int = None
 temp : str = None
+veletlen : int = None
+atlag: int = None
+oszthato: int = 0
 
 system('cls')
 
@@ -25,3 +28,17 @@ while(paratlan == None):
         print("Nem nagyobb számot adott meg!")
     else:
         print("Nem páratlan számot adott meg!")
+
+veletlen = random.randint(paros, paratlan)
+
+for i in range(paros, paratlan + 1, 1):
+    if(i % 4 == 0):
+        oszthato = oszthato + 1
+
+atlag=(paros+paratlan)/2
+if(veletlen>atlag):
+    print(f"A véletlen szám a páratlan számhoz van közelebb, a szám: {veletlen}")
+else:
+    print(f"A véletlen szám a páros számhoz van közelebb, a szám: {veletlen}")
+print(f"A két szám közti átlag {atlag}")
+print(f"A néggyel osztható számok száma: {oszthato}")
