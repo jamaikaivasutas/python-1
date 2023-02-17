@@ -1,6 +1,5 @@
 from os import system
 import random
-from time import process_time_ns
 
 paros : int = None
 paratlan : int = None

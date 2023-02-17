@@ -2,7 +2,7 @@ from os import system
 
 system('cls')
 
-number: int = None
+number: int = 0
 temp: str = None
 truncatedString: str = None
 
