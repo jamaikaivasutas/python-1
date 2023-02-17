@@ -8,3 +8,5 @@ while(isName == False):
         isName = True
     else:
         print("Nem nevet adott meg.")
+
+print(f"Üdvözöljük {name}")
