@@ -1,6 +1,8 @@
 from os import system
 
-temp: int = None
+temp: str = None
+truncatedString: str = None
+isNumber: bool = False
 mPenz: int = None
 osszeg: int = None
 honap: int = 0
@@ -10,11 +12,12 @@ system('cls')
 while(mPenz == None):
     print("Mennyi megtakarított pénze van?")
     temp=str(input())
-    temp=temp.replace(" Ft", "")
-    if(int(temp) < 100000):
+    truncatedString=temp.replace(" Ft", "")
+    isNumber=truncatedString.isnumeric()
+    if(isNumber and int(truncatedString) < 100000):
         mPenz = int(temp)
     else:
-        print("Kisebb értéket adjon meg mint 100000 Ft.")
+        print("Nem jó értéket adott meg!")
     
 
 
