@@ -23,7 +23,7 @@ def getAge()->int:
         print("Kérem a korát!")
         temp = str(input())
         truncatedString = temp.replace("-", "").replace(" ", "")
-        isNumber = truncatedString.isnumeric
+        isNumber = truncatedString.isnumeric()
         if(isNumber):
             age = int(temp)
             return age
