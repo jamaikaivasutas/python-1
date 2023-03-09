@@ -3,5 +3,5 @@ from consoleio import *
 
 system('cls')
 
-eredmeny=atalakit(30, "K")
-printConsole(eredmeny, "K")
+eredmeny=atalakit(30, "F")
+printConsole(eredmeny, "F")
