@@ -3,5 +3,11 @@ from consoleio import *
 
 system('cls')
 
-eredmeny=atalakit(30, "F")
-printConsole(eredmeny, "F")
+parameter: str = None
+temperature: float=None
+
+parameter=getParam()
+temperature=getTemp()
+
+eredmeny=atalakit(temperature, parameter)
+printConsole(eredmeny, parameter)
