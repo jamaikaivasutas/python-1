@@ -32,10 +32,12 @@ def getWork()->int:
 
 def earn(work:int)->int:
     earnings: int = None
-    extraWork: int = None
-    normalWork: int = None
+    extraWork: int = 0
+    normalWork: int = 0
 
-    extraWork=work-40
+    if(work>40):
+        extraWork=work-40
+        
     normalWork=work-extraWork
 
     earnings=normalWork*1000+extraWork*1500

@@ -5,19 +5,17 @@ def genRnd(start:int, end:int)->int:
     ran=random.randint(start,end)
     return ran
 
-def guess(number1:int, number2:int, number3:int)->int:
+def guess(number:int)->int:
     guess: int = None
     trial: int = 0
-    while(guess != number3):
+    while(guess != number):
         trial=trial+1
-        guess=genRnd(number1, number2)
-        if(guess > number3):
+        guess=genRnd(0, 50)
+        if(guess > number):
             print("A kitalálandó szám kisebb.")
-            number2=guess
-        elif(guess == number3):
+        elif(guess == number):
             print("Eltalálta a számot!")
         else:
             print("A kitalálandó szám nagyobb")
-            number1=guess
     return trial
 
