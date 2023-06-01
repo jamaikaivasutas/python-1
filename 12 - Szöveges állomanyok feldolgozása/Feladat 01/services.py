@@ -26,3 +26,13 @@ def studentAboveAverage(students: List[Student], classAverage: float)->List[Stud
             aboveAverage.append(student)
     
     return aboveAverage
+
+def isAnyExcellentStudent(students: List[Student])->bool:
+    exists:bool=False
+
+    for student in students:
+        if(student.average == 5):
+            exists=True
+            break
+
+    return exists

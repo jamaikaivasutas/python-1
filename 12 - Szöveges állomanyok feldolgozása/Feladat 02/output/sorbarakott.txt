@@ -1,0 +1,38 @@
+Lefebvre	Georges	Nap�leon	963280256X	t�rt�nelem	783
+King	Stephen	�lomcsapda	9630779501	sci-fi	752
+King	Stephen	Hasznos holmik	9630778246	horror	720
+Castelot	Andr�	Nap�leon	9500274612	t�rt�nelem	653
+Fowler	Martin	Domain-Specific Languages	9780321712943	informatika	640
+Hutchinson	Robert	A F�ld enciklop�di�ja	9789630961615	term�szettudom�ny	608
+Allaby	Michael	A F�ld enciklop�di�ja	9789630961615	term�szettudom�ny	608
+King	Stephen	A t�zgy�jt�	9789630786836	krimi	520
+Dinwiddie	Robert	Az �ce�n	9789639693456	term�szettudom�ny	512
+Dinwiddie	Robert	Az univerzum	963-967-800-7	term�szettudom�ny	512
+Eales	Philip	Az �ce�n	9789639693456	term�szettudom�ny	512
+Eales	Philip	Az univerzum	963-967-800-7	term�szettudom�ny	512
+Cousteau	Fabien	Az �ce�n	9789639693456	term�szettudom�ny	512
+Sparks	John	Az �ce�n	9789639693456	term�szettudom�ny	512
+Fable	Vavyan	�bredj velem!	9639300200	krimi	490
+Fable	Vavyan	T�zvar�zs	9789639300347	krimi	488
+J�kai	M�r	1848 - a magyar szabads�gharcz 1848-49-ben	9789630960519	t�rt�nelem	476
+M�ra	Ferenc	Aranykopors�	9789630779180	sz�pirodalom	472
+Fable	Vavyan	V�szbej�rat	9789639300279	krimi	472
+Harrison	Harry	Fagyos �den	9789639828605	sci-fi	460
+J�kai	M�r	A k�sz�v� ember fiai	9789636451004	sz�pirodalom	442
+Gamma	Erich	Programtervez�si mint�k - �jrahasznos�that� elemek objektumk�zpont� programokhoz	9639301779	informatika	421
+Gamma	Erich	Design Patterns: Elements of Reusable Object-Oriented Software	9780201633610	informatika	416
+Fowler	Martin	Refactoring - K�djav�t�s �jratervez�ssel	9639637130	informatika	372
+Attenborough	David	Az �let er�pr�b�i	9638227117	term�szettudom�ny	326
+Attenborough	David	Az �l� bolyg� - a f�ld mai arculata	9635300077	term�szettudom�ny	324
+Asimov	Isaac	A Hold trag�di�ja	22222222222	sz�pirodalom	310
+Christie	Agatha	�s elj� a hal�l...	9789630786430	krimi	292
+Asimov	Isaac	A biol�gia r�vid t�rt�nete	11111111111	term�szettudom�ny	278
+Christie	Agatha	�jf�lt�jt	9789630786249	krimi	272
+Christie	Agatha	T�z kicsi n�ger	9789630788984	krimi	266
+King	Stephen	Dolores	9600781875	thriller	264
+Christie	Agatha	A v�d tan�ja	963841345X	krimi	254
+Attenborough	David	Az els� �denkert	9630267217	term�szettudom�ny	238
+Christie	Agatha	A v�ratlan vend�g	9789635490479	krimi	200
+M�ra	Ferenc	A gyevi t�rv�ny - Tanuls�gos mes�k, mond�k M�ty�s kir�lyr�l	9789639581197	mesek�nyv	48
+J�kai	M�r	A gyevi t�rv�ny - Tanuls�gos mes�k, mond�k M�ty�s kir�lyr�l	9789639581197	mesek�nyv	48
+M�ra	Ferenc	A nagyhatalm� s�ndiszn�cska	9789633468814	mesek�nyv	14

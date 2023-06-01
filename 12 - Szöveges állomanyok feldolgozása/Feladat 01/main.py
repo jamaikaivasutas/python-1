@@ -27,6 +27,10 @@ aboveAverage: List[Student] = studentAboveAverage(students, classAverage)
 writeStudentInFile(aboveAverage, "atlagfelett.txt")
 
 #6 - Van e kitünő tanulónk?
+if(isAnyExcellentStudent(students)):
+    print("\nVan kitünő tanuló")
+else:
+    print("\nNincs kitünő tanuló.")
 
 """
 7 - Hány elégtelen, elégséges, jó, jeles és kitünő tanuló van az osztályban?
